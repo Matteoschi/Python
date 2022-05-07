@@ -58,21 +58,14 @@ Serial.println(" cm     ");
   lcd.setCursor(1, 1);  
   lcd.print("temperatura ");
   lcd.print(temperature);
-
-if(c >= 1){
-  Serial.println("                                       ATTENZIONE è PASSATA UNA PERSONA");
-  
-  lcd.print(c);
   
 }
-
 
 if(distanza < 80){
  digitalWrite(11, LOW);
  digitalWrite(12, LOW);
  digitalWrite(13, HIGH);
 
- 
 }
 else{
  digitalWrite(11, LOW);
@@ -88,14 +81,11 @@ else{
   lcd.print("   chi sei ?   ");
   lcd.setCursor(2, 1);
   lcd.print(c);
-  
   c++;
+   
  }else{
   Serial.print("nessuno    ");
  }
  delay(150);
-
-
-  
 
 }
