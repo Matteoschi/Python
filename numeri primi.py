@@ -1,12 +1,18 @@
-Numero=int(input("Indicare numero"))
-
+import time
+Numero = int(input("Indicare numero "))
+primo = True
 for i in range(2, Numero):
     if (Numero % i) == 0:
-        Riv = True
-    else:
-        Riv = False
+        primo = False
+for i in range(2, Numero):
+    if (Numero % i) > 0:
+        b = True
+        a = False
 
-if Riv:
-    print(Numero, "Non è primo")
+if primo: # se N è primo
+ print (Numero," è un numero primo")
 else:
-    print(Numero, "E primo")
+ print (Numero," non è un numero primo")
+
+time.sleep(10)
+
