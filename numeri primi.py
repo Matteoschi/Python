@@ -1,6 +1,6 @@
 import time
 Numero = int(input("Indicare numero "))
-primo = True
+N = True
 for i in range(2, Numero):
     if (Numero % i) == 0:
         primo = False
@@ -9,7 +9,7 @@ for i in range(2, Numero):
         b = True
         a = False
 
-if primo: # se N è primo
+if N: 
  print (Numero," è un numero primo")
 else:
  print (Numero," non è un numero primo")
