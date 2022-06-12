@@ -20,3 +20,7 @@ if ask == "2":
 	binario = input("inserire numero da convertire in base 2 ")
 	decimale = int( binario , base=2)
 	print(decimale,"numero decimale di ",binario)
+If ask == “3”:
+        parola = input(“inserisci parola da convertire: ”)
+        convertito = " 0".join(format(ord(c), 'b') for c in parola)
+        print("rappresentazione", "0" + convertito)
