@@ -1,3 +1,4 @@
+#first of all create a text file called history.txt, in this way python will save the results of the various players
 DOMANDE = [
     ("Di quale stato fanno parte le Hawaii?", "Stati Uniti"),
     ("Quanti Stati ci sono negli Stati Uniti?", "50"),
