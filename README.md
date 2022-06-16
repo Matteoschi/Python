@@ -71,5 +71,28 @@ then set the score and how many righ answers you do
 Punti = 1
 punti_corretti = 0
 ```
+set ehen the score need to increase and decrease 
+```
+for domande, domande_corrette in DOMANDE:
+    risposta = input(f"{domande}? ")
+    if risposta == domande_corrette:
+        Punti += 1
+        punti_corretti +=1
+        print("corretto Punti:",Punti)
+    else:
+        Punti -= 1
+        print("la risposta corretta è",domande_corrette,"non è", risposta,"Punti:",Punti)
+```
+Say that when the score is 0 to stop the quaz and write in a note.txt the score tha the player have done
+```
+    if Punti == 0:
+        print("hai perso")
+        file.write("{}\n".format(giocatore))
+        file.write("{}\n".format(punti_corretti))  
+        file.close()
+        break
+```
 
+## Authors
 
+- [@Matteoschi](https://github.com/Matteoschi)
