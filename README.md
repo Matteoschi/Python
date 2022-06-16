@@ -66,4 +66,10 @@ first of all you have to write what the questions are
 ```
 DOMANDE = []
 ```
+then set the score and how many righ answers you do
+```
+Punti = 1
+punti_corretti = 0
+```
+
 
