@@ -60,6 +60,8 @@ infact most of the code work is done by library presets
 ```
 img=qrcode.make(codice)
 ```
+![git hub](https://user-images.githubusercontent.com/94646702/174076238-8392a7a4-9a10-4755-a958-b99bfa3c65ae.png)
+
 ## Quiz app
 <a name="Quiz-app"></a>
 first of all you have to write what the questions are
