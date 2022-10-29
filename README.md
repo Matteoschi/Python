@@ -5,6 +5,7 @@ In this repository dedicated to physics you will find various python codes to ca
 - [Prime numbers](#Prime-numbers)
 - [How to do QR code](#How-to-do-QR-code)
 - [Quiz app](#Quiz-app)
+- [Graphic](#Graphic)
 
 ## Binary code
 <a name="Binary-code"></a>
@@ -94,6 +95,21 @@ Say that when the score is 0 to stop the quaz and write in a note.txt the score 
         file.close()
         break
 ```
+# Graphic
+<a name="Graphic"></a>
+How to create a graph in python To draw a graph with the python language I use the```matplotib.pyplot library```.This library contains several functions dedicated to graphical representation.
+The main functions are as follows: 
+- plt.plot draws the graph based on a set of reference data. 
+- plt.xlabel indicates the unit of measurement X on the abscissas 
+- plt.ylabel indicates the unit of measurement Y on the ordinates 
+- plt.legend () indicates the position and characteristics of the legend 
+- plt.show () shows the graphic representation
+Some axaples of graphic:
+
+
+
+.
+![Figure 1 29_10_2022 20_06_18](https://user-images.githubusercontent.com/94646702/198847032-8002aee1-51aa-4018-b691-c5cc46d65449.png)
 
 ## Authors
 
