@@ -6,6 +6,7 @@ In this repository dedicated to physics you will find various python codes to ca
 - [How to do QR code](#How-to-do-QR-code)
 - [Quiz app](#Quiz-app)
 - [Graphic](#Graphic)
+- [Numeri max](#Numeri_max)
 
 ## Binary code
 <a name="Binary-code"></a>
@@ -110,6 +111,9 @@ Some axaples of graphic:
 
 .
 ![Figure 1 29_10_2022 20_06_18](https://user-images.githubusercontent.com/94646702/198847032-8002aee1-51aa-4018-b691-c5cc46d65449.png)
+# Numeri Max
+<a name="Numeri_max"></a>
+**Another project using python's math functions may be to determine which of the 3 pairs of numbers is greater**
 
 ## Authors
 
